@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "userName": "wsc",
+            "password": "hhail",
+            "point": 2000
+        },
+        {
+            "userName": "dowyvr",
+            "password": "hhail",
+            "point": 2000
+        },
+        {
+            "userName": "tim",
+            "password": "hhail",
+            "point": 0
+        },
+        {
+            "userName": "nina",
+            "password": "hhail",
+            "point": 0
+        }
+    ],
+    "port": "3000"
+}

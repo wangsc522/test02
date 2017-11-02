@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>歡迎 <%= titlename %></p>
+    
+
+<div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">密碼:</label>
+  <input type="password" class="form-control" id="pwd">
+</div>
+
+
+<div class="form-group">
+  <label for="pwd">確認密碼:</label>
+  <input type="password" class="form-control" id="repwd">
+</div>
+  </body>
+</html>
